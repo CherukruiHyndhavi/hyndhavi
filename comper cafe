@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>camper cofe</title>
+        <link rel="stylesheet" href="cafe.css"/>
+    </head>
+    <body>
+      <main>
+        <header>
+        <h1>CAMPER CAFE</h1>
+        <P></P><em>Est. 2020</em></P>
+        </header>
+        <hr>
+        <section>
+        <h2>Coffee</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="Coffee cup">
+        <article class="art">
+        <p class="lef">French Vanilla</p><p class="righ"> 3.00</p>
+        </article>
+        <article class="art">
+        <p class="lef">Caramel Macchiato</p><p class="righ"> 3.75</p>
+    </article>
+        <article class="art">
+        <p class="lef">Pumpkin Spice</p><p class="righ"> 3.50</p>
+    </article>
+        <article class="art">
+        <p class="lef">Hazelnut </p><p class="righ">4.00</p>
+    </article>
+        <article class="art">
+        <p class="lef">Mocha </p><p class="righ">4.50</p></p>
+    </article>
+        </section>
+        <section>
+            <h2>Desserts</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="Dessert">
+            <article class="art">
+            <p class="lef">Donut </p><p class="righ">1.50</p>
+        </article>
+            <article class="art">
+            <p class="lef">Cherry Pie </p><p class="righ">2.75</p>
+        </article>
+            <article class="art">
+            <p class="lef">Cheesecake </p><p class="righ">3.00</p>
+        </article>
+            <article class="art">
+            <p class="lef">Cinnamon Roll </p><p class="righ">2.50</p>
+        </article>
+        </section>
+        <hr>
+        <footer>
+            <a href="https://www.freecodecamp.org/">Visit our website</a>
+            <h6>123 Free Code Camp Drive<h6>
+        </footer>
+        </main>
+    </body>
+</html>
+body{
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+}
+
+main{
+    text-align: center;
+    background-color: burlywood;
+    margin: 50px 50px 50px 50px;
+    font-family: Tahoma;
+    width: 700px;
+    margin:auto;
+    padding: 20px 50px;
+}
+header{
+    padding-top: 5px;
+}
+footer, section{
+    padding-bottom: 10px;
+}
+hr{
+    height: 2px;
+  background-color: brown;
+  border-color: brown;
+  width: 700px;
+}
+.art p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .lef {
+    text-align: left;
+    width: 75%;
+   
+  }
+  
+  .righ {
+    text-align: right;
+    width: 25%;
+   
+  }
+  img{
+    height: 70px;
+    height: 70px;
+  }
